@@ -43,7 +43,7 @@ Local providers
 
 .. warning::
 
-  Please, choose wisely your account provider because **the choice is not
+  **Please choose your account provider  wisely because the choice is not
   reversible**. Also, the system will forbid any change to the FQDN after the
   account provider has been configured.
 
@@ -243,7 +243,7 @@ When creating a user, following fields are mandatory:
 
 A user can be added to one or more group from the :guilabel:`Users` page or from the :guilabel:`Groups` one.
 
-Sometimes you need to block user's access to services without deleting the
+Sometimes you need to block a user's access to services without deleting the
 account. This can be achieved using the :guilabel:`Lock` and :guilabel:`Unlock`
 actions.
 
@@ -254,7 +254,7 @@ actions.
 Changing the password
 ---------------------
 
-If an inital password was not set during creation, the user account is disabled.
+If an inital password was not set during creation, the user account is disabled by default.
 To enable it, set a password using the :guilabel:`Change password` button.
 
 When a user is enabled, the user can access the Server Manager and change
